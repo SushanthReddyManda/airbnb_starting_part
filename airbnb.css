@@ -6,6 +6,14 @@
 body{
     font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
 }
+li{
+    padding: 5px 0;
+}
+
+ul{
+    float: left;
+}
+
 
 .img-prop{
     width: 100%;
@@ -487,6 +495,9 @@ legend {
     }   
 }
 
-@media(min-width:992px){
+@media(max-width:700px){
+    .collapse-class{
+        display: none;
+    }
 
 }
